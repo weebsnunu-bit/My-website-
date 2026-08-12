@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | My Website</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f6f8;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    nav {
+      background: #111827;
+      color: white;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #38bdf8;
+      font-size: 22px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    /* Home Section */
+    .home {
+      min-height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, #0f172a, #2563eb);
+      color: white;
+    }
+
+    .home-content {
+      max-width: 750px;
+    }
+
+    .home h1 {
+      font-size: 52px;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .home p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-bottom: 30px;
+      opacity: 0.95;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 14px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #ffffff;
+      color: #111827;
+    }
+
+    /* About Section */
+    .about {
+      padding: 70px 10%;
+      text-align: center;
+      background: #ffffff;
+    }
+
+    .about h2 {
+      margin-bottom: 20px;
+      font-size: 34px;
+      color: #111827;
+    }
+
+    .about p {
+      max-width: 750px;
+      margin: auto;
+      line-height: 1.8;
+      color: #4b5563;
+    }
+
+    /* Footer */
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .home h1 {
+        font-size: 38px;
+      }
+
+      .home p {
+        font-size: 16px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+
+  <nav>
+    <h2>Meet A Web Programmer</h2>
+
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+
+  </nav>
+
+  <!-- Home -->
+
+  <section class="home">
+    <div class="home-content">
+      <h1>Welcome to My Website</h1>
+
+  <p>
+    Welcome to our official website. This platform is designed to provide a clean,
+    modern, and responsive experience where you can present your business, organization,
+    or personal project in a professional manner.
+  </p>
+
+  <a href="#about" class="btn">Learn More</a>
+</div>
+
+  </section>
+
+  <!-- About -->
+
+  <section class="about" id="about">
+    <h2>About Us</h2>
+
+<p>
+  We are dedicated to delivering high-quality services and creating meaningful
+  experiences for our users. This section can be customized to include your
+  company background, mission, services, and other relevant information.
+</p>
+
+  </section>
+
+< section class="contact" id="contact">
+  <p>tel:+256742290865</p>
+  <p> E.mail: jesterquinn83@gmail.com</p>
+</section>
+
+  <footer>
+    <p>© 2026 <i>jesterquinn</i> All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
